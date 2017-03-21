@@ -201,8 +201,7 @@ Media Queries
   .profile-picture {
     max-width: 300px;
     order: 2;
-    height: 358px;
-    width: 225px;
+
   }
   .main-header p{
     font-size: 1.1em;
