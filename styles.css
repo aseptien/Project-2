@@ -141,9 +141,6 @@ i.fa {
 }
 /* ---- Page Elements ---- */
 
-.profile-picture {
-  max-width: 100px;
-  padding: 100px;
 }
 .contact {
   display: flex;
@@ -174,7 +171,7 @@ Media Queries
     display: flex;
   }
 	
-  .header p {
+  main-header p {
   max-width: 300px;
   }
   .main-nav{
@@ -202,9 +199,6 @@ Media Queries
     display: flex;
     flex-wrap: wrap;
   }
-  .profile-picture {
-    max-width: 300px;
-    order: 2;
 
   }
   .main-header p{
