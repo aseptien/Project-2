@@ -142,7 +142,8 @@ i.fa {
 /* ---- Page Elements ---- */
 
 .profile-picture {
-  width: auto;
+  width: 358px;
+  height: 250px;
 }
 .contact {
   display: flex;
