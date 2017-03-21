@@ -200,6 +200,7 @@ Media Queries
   .profile-picture {
     order: 2;
     height: 175px;
+    width: auto;
   }
   .main-header p{
     font-size: 1.1em;
