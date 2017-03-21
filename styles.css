@@ -142,8 +142,7 @@ i.fa {
 /* ---- Page Elements ---- */
 
 .profile-picture {
-  width: 358px;
-  height: 250px;
+  max-width: 100px;
   padding: 0 5p 0;
 }
 .contact {
