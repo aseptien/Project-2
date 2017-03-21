@@ -22,6 +22,7 @@ p {
   margin-bottom: 1.8em;
   margin-top: 0px;
   color: #7f7f7f
+  padding: 0 1.5em;
 }
 h1,
 h2,
@@ -141,7 +142,7 @@ i.fa {
 /* ---- Page Elements ---- */
 
 .profile-picture {
-  width: 200px;
+  width: 250px;
 }
 .contact {
   display: flex;
@@ -199,7 +200,6 @@ Media Queries
   .profile-picture {
     order: 2;
     height: 175px;
-    width: auto;
   }
   .main-header p{
     font-size: 1.1em;
