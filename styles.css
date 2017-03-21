@@ -227,8 +227,8 @@ Media Queries
 }
 @media (min-width: 1024px) {
   .main-nav{
-		flex-direction: row;
-		justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-between;
 	}
   .cards{
     flex: 1 33%;
@@ -238,8 +238,8 @@ Media Queries
   .profile,
   .main-footer,
   .contact{
-		width: 80%;
-		max-width: 1150px;
+	width: 80%;
+	max-width: 1150px;
 	}
   .main-header p {
     font-size: 1.5em;
