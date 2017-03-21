@@ -256,7 +256,8 @@ Media Queries
     padding-left: 0px;
   }
   .profile-picture {
-    height: auto;
+    height: 225px;
+    width: 358px;
   }
   .contact p {
     padding: 0px 9em;
