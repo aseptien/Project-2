@@ -199,6 +199,7 @@ Media Queries
     flex-wrap: wrap;
   }
   .profile-picture {
+    max-width: 300px;
     order: 2;
     height: 358px;
     width: 225px;
