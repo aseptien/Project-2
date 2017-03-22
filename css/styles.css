@@ -155,14 +155,14 @@ i.fa {
 Media Queries
 ==================================== */
 
-@media (min-width: 768px)
+@media (min-width: 768px) {
   .profile,
   .main-footer,
   .contact {
     width: 90%;
     margin: 0 auto;
   }
-	
+}	
  .profile-picture {
     order: 2;
     height: 175px;
@@ -234,7 +234,7 @@ Media Queries
     max-width: 400px;
   }
 
-@media (min-width: 1024px)
+@media (min-width: 1024px) {
   .main-nav {
 	flex-direction: row;
 	justify-content: space-between;
