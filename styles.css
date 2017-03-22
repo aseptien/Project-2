@@ -21,7 +21,7 @@ p {
   font-size: .95em;
   margin-bottom: 1.8em;
   margin-top: 0px;
-  color: #7f7f7f
+  color: #7f7f7f;
   padding: 0 3em;
 }
 h1,
@@ -141,7 +141,6 @@ i.fa {
 }
 /* ---- Page Elements ---- */
 
-}
 .contact {
   display: flex;
   flex-flow: column;
@@ -200,8 +199,6 @@ Media Queries
     display: flex;
     flex-wrap: wrap;
   }
-
-  }
   .main-header p{
     font-size: 1.1em;
     text-align: left;
@@ -224,6 +221,9 @@ Media Queries
   .image {
     flex: 1 0 40%;
   }
+  .profile-picture {
+    order: 2;
+  }
 
 }
 @media (min-width: 1024px) {
@@ -245,6 +245,7 @@ Media Queries
   .main-header p {
     font-size: 1.5em;
     padding-right: 4em;
+    padding-left: 4em;
   }
   ul.nav {
     margin-right: 0px;
