@@ -162,6 +162,10 @@ Media Queries
     width: 90%;
     margin: 0 auto;
   }
+	
+ .profile-picture {
+    order: 2;
+  }	
   .row,
   .main-nav,
   .profile,
@@ -221,11 +225,7 @@ Media Queries
   .image {
     flex: 1 0 40%;
   }
-  .profile-picture {
-    order: 2;
-  }
 
-}
 @media (min-width: 1024px) {
   .main-nav{
 	flex-direction: row;
