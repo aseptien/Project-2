@@ -155,7 +155,7 @@ i.fa {
 Media Queries
 ==================================== */
 
-@media (min-width: 768px) {
+@media (min-width: 768px)
   .profile,
   .main-footer,
   .contact {
@@ -171,7 +171,7 @@ Media Queries
   .row,
   .main-nav,
   .profile,
-  .nav{
+  .nav {
     margin: 0 auto;
     display: flex;
   }
@@ -207,18 +207,18 @@ Media Queries
     display: flex;
     flex-wrap: wrap;
   }
-  .main-header p{
+  .main-header p {
     font-size: 1.1em;
     text-align: left;
     padding-right: 10px;
     flex: 1 0 70%;
   }
-  .contact p{
+  .contact p {
     padding: 0 8em;
     font-size: 1.1em;
     margin-top: 0;
   }
-  .cards img{
+  .cards img {
     padding-right: 0px;
     padding-bottom: 1em;
   }
@@ -234,19 +234,19 @@ Media Queries
     max-width: 400px;
   }
 
-@media (min-width: 1024px) {
-  .main-nav{
+@media (min-width: 1024px)
+  .main-nav {
 	flex-direction: row;
 	justify-content: space-between;
 	}
-  .cards{
+  .cards {
     flex: 1 33%;
   }
   .main-nav,
-	.row,
+  .row,
   .profile,
   .main-footer,
-  .contact{
+  .contact {
 	width: 80%;
 	max-width: 1150px;
 	}
