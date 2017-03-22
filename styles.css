@@ -173,6 +173,8 @@ Media Queries
 	
   main-header p {
   max-width: 300px;
+  padding-left: 30px;
+	  
   }
   .main-nav{
     flex-direction: column;
