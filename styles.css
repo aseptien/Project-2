@@ -165,6 +165,8 @@ Media Queries
 	
  .profile-picture {
     order: 2;
+    height: 175px;
+    width: auto;
   }	
   .row,
   .main-nav,
@@ -175,8 +177,10 @@ Media Queries
   }
 	
   .main-header p {
-  max-width: 300px;
-  padding-left: 30px;  
+    font-size: 1.1em;
+    text-align: left;
+    padding-right: 10px;
+    flex: 1 0 70%;  
   }
   .main-nav{
     flex-direction: column;
@@ -256,12 +260,10 @@ Media Queries
     padding-left: 0px;
   }
   .profile-picture {
-    height: 225px;
-    width: 358px;
+    height: auto;
   }
   .contact p {
     padding: 0px 9em;
     font-size: 1.2em;
     letter-spacing: 2px;
   }
-}
