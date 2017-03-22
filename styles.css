@@ -229,6 +229,10 @@ Media Queries
   .image {
     flex: 1 0 40%;
   }
+  .main-header p {
+    padding-left: 0;
+    max-width: 400px;
+  }
 
 @media (min-width: 1024px) {
   .main-nav{
@@ -266,4 +270,8 @@ Media Queries
     padding: 0px 9em;
     font-size: 1.2em;
     letter-spacing: 2px;
+  }
+	
+  .main-header p {
+    max-width: 500px;	
   }
